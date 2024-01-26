@@ -15,7 +15,8 @@ public class User {
         this.email = email;
         this.password = password;
     }
-
+    
+     @NotBlank
     public String getUsername() {
         return username;
     }
